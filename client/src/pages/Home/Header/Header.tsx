@@ -7,13 +7,13 @@ const Header: React.FunctionComponent = (): JSX.Element => {
         <div className={`${styles.header} landing_section`}>
             <div className={styles.header_left}>
                 <div className={styles.header_left_title}>
-                    <span className={styles.header_left_title_cyan}>Lorem</span>
-                    <span>ipsum</span>
+                    <span className={styles.header_left_title_cyan}>Tr</span>
+                    <span>eno</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>El mejor entrenador de mascotas virtual ahora en tus manos</p>
                 <div className={styles.header_left_btns_container}>
-                    <Btn attribute='btn-header' text='Lorem ipsum' family="cyan-500" callback={() => { }} />
-                    <Btn attribute='btn-header' text='Lorem ipsum' family="light-000" callback={() => { }} />
+                    <Btn attribute='btn-header' text='Contáctanos' family="cyan-500" callback={() => { }} />
+                    <Btn attribute='btn-header' text='Producto' family="light-000" callback={() => { }} />
                 </div>
             </div>
             <img src="svgs/dog.svg" alt="" />
